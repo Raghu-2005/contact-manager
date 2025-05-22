@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 0.5rem;
+  margin: auto;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.rectangle {
+  width: 150px;
+  height: 80px;
+}
+
+.deleted {
+  background: #fee;
+}
